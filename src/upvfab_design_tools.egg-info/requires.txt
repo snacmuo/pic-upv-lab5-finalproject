@@ -1,0 +1,8 @@
+gdsfactory==9.34.0
+gplugins[femwell,tidy3d]==2.0.1
+ipykernel>=6.29
+matplotlib>=3.8
+numpy>=1.26
+shapely>=2.0
+pytz
+tqdm>=4.66

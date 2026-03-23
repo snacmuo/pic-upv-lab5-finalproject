@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "upv-chair-lab5"
 version = "0.1.0"
@@ -5,7 +9,15 @@ description = "PIC-UPV Final Design"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "cspdk>=1.4.2",
     "gdsfactory==9.34.0",
-    "gplugins[sax,tidy3d]==2.0.1",
-    "pytz",
+    "gplugins[sax,femwell,tidy3d]==2.0.1",
+    "pytz",    
+    "scikit-fem",
 ]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

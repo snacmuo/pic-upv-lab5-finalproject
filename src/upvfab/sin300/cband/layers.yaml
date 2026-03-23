@@ -1,0 +1,38 @@
+LayerViews:
+  WG:
+    layer: [1, 0]
+    layer_in_name: true
+    width: 1
+    color: "#ff9d9d"
+    hatch_pattern: coarsely dotted
+  SLAB:
+    layer: [21, 0]
+    layer_in_name: true
+    hatch_pattern: coarsely dotted
+    width: 1
+    color: "silver"
+  HEATER:
+    layer: [4, 0]
+    layer_in_name: true
+    color: "#ebc634"
+    hatch_pattern: coarsely dotted
+  PAD:
+    layer: [41, 0]
+    layer_in_name: true
+    fill_color: "teal"
+    hatch_pattern: coarsely dotted
+  FLOORPLAN:
+    layer: [99, 0]
+    layer_in_name: true
+    color: "green"
+    hatch_pattern: hollow
+  LABEL_SETTINGS:
+    layer: [100, 0]
+    layer_in_name: true
+    color: "cyan"
+    hatch_pattern: hollow
+  LABEL_INSTANCE:
+    layer: [101, 0]
+    layer_in_name: true
+    color: "cyan"
+    hatch_pattern: hollow

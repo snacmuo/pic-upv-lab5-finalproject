@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: upv-chair-lab5
+Version: 0.1.0
+Summary: PIC-UPV Final Design
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: cspdk>=1.4.2
+Requires-Dist: gdsfactory==9.34.0
+Requires-Dist: gplugins[femwell,sax,tidy3d]==2.0.1
+Requires-Dist: pytz
+Requires-Dist: scikit-fem
